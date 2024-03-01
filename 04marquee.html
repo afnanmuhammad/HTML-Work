@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee</title>
+</head>
+
+<body style="background-color: lightblue;">
+    <!-- scrollamount used for speed
+     onmouseover used for stop with mouse (any object)
+     onmouseleave used for start remove mouse from object -->
+
+    <marquee behavior="" direction="right" scrollamount="50" onmouseover="this.stop()" onmouseleave="this.start()">
+        <img src="images/mg.jpg" alt="">
+    </marquee>
+    <marquee behavior="slide" direction="left" scrolldelay="1">
+        <h1>We are learning HTML Tags</h1>
+    </marquee>
+    <marquee behavior="" direction="up">
+        <h1>We are use the Up side animation </h1>
+    </marquee>
+    <marquee behavior="" direction="down">
+        <h1>We are use the Down side animation </h1>
+    </marquee>
+    <marquee bgcolor='red' onmouseover='this.stop()' onmouseleave='this.start()' scrollamount='100'>
+        <h1>We are larning marquee design</h1>
+    </marquee>
+    <marquee bgcolor='yellow' behavior='alternate' onmouseover='this.stop()' onmouseleave='this.start()'
+        scrollamount='100'>
+        <h1>We are larning marquee design</h1>
+    </marquee>
+    <marquee bgcolor='green' behavior='slide'>
+        <h1>We are larning web design</h1>
+    </marquee>
+
+
+</body>
+
+</html>
